@@ -348,9 +348,7 @@ function isEmpty(value) {
 }
 
 function forwardToId(params) {
-    location.href =
-        "/id?" +
-        params.toString();
+    location.href = "./id.html?" + params.toString();
 }
 
 var guide =
